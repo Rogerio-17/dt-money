@@ -1,0 +1,28 @@
+{
+    "transactions": [
+        {
+            "id": 1,
+            "description": "desenvolvimento",
+            "type": "income",
+            "category": "Venda",
+            "price": 1900,
+            "createdAt": "2023-10-26T23:16:56.308Z"
+        },
+        {
+            "id": 2,
+            "description": "Desenho de fluxo",
+            "type": "outcome",
+            "category": "Compra",
+            "price": 100,
+            "createdAt": "2023-06-29T23:16:56.308Z"
+          },
+          {
+            "id": 3,
+            "description": "Teste de logica",
+            "type": "outcome",
+            "category": "Teste",
+            "price": 1900,
+            "createdAt": "2023-08-20T23:19:56.308Z"
+          }
+    ]
+}
