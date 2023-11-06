@@ -1,28 +1,60 @@
 {
-    "transactions": [
-        {
-            "id": 1,
-            "description": "desenvolvimento",
-            "type": "income",
-            "category": "Venda",
-            "price": 1900,
-            "createdAt": "2023-10-26T23:16:56.308Z"
-        },
-        {
-            "id": 2,
-            "description": "Desenho de fluxo",
-            "type": "outcome",
-            "category": "Compra",
-            "price": 100,
-            "createdAt": "2023-06-29T23:16:56.308Z"
-          },
-          {
-            "id": 3,
-            "description": "Teste de logica",
-            "type": "outcome",
-            "category": "Teste",
-            "price": 1900,
-            "createdAt": "2023-08-20T23:19:56.308Z"
-          }
-    ]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "desenvolvimento",
+      "type": "income",
+      "category": "Venda",
+      "price": 1900,
+      "createdAt": "2023-10-26T23:16:56.308Z"
+    },
+    {
+      "id": 2,
+      "description": "Desenho de fluxo",
+      "type": "outcome",
+      "category": "Compra",
+      "price": 100,
+      "createdAt": "2023-06-29T23:16:56.308Z"
+    },
+    {
+      "id": 3,
+      "description": "Teste de logica",
+      "type": "outcome",
+      "category": "Teste",
+      "price": 1900,
+      "createdAt": "2023-08-20T23:19:56.308Z"
+    },
+    {
+      "description": "Desenvolvimento de app",
+      "price": 106,
+      "category": "Compra",
+      "type": "income",
+      "createdAt": "2023-11-06T13:19:58.719Z",
+      "id": 4
+    },
+    {
+      "description": "Desenvolvimento de app",
+      "price": 300,
+      "category": "compra",
+      "type": "outcome",
+      "createdAt": "2023-11-06T13:35:04.315Z",
+      "id": 5
+    },
+    {
+      "description": "teste de reset",
+      "price": 500,
+      "category": "venda",
+      "type": "income",
+      "createdAt": "2023-11-06T17:36:09.468Z",
+      "id": 6
+    },
+    {
+      "description": "sorvete de baunilha",
+      "price": 24,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2023-11-06T17:59:51.476Z",
+      "id": 7
+    }
+  ]
 }
