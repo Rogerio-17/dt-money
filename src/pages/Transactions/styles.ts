@@ -30,6 +30,16 @@ export const TransactionTable = styled.table`
   }
 `;
 
+export const HeaderTable = styled.thead`
+  td {
+    background: transparent;
+
+    &:first-child {
+      width: 50%;
+    }
+  }
+`;
+
 interface PriceHighLightProps {
   variant: "income" | "outcome";
 }

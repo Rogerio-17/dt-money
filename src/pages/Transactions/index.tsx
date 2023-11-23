@@ -1,7 +1,7 @@
 import { Header } from "../../components/Header";
 import { Summary } from "../../components/Summary";
 import { SearchForm } from "./components/SearchForm";
-import { PriceHighLight, TransactionsContainer } from "./styles";
+import { HeaderTable, PriceHighLight, TransactionsContainer } from "./styles";
 
 import { TransactionTable } from "./styles";
 import { TransactionsContext } from "../../contexts/TransactionContext";
@@ -24,7 +24,15 @@ export function Transactions() {
         <SearchForm />
 
         <TransactionTable>
-          {transactions.map((transaction) => {
+          <HeaderTable>
+            <td>Descrição</td>
+            <td>Preço</td>
+            <td>Categoria</td>
+            <td>Data</td>
+          </HeaderTable>
+          {
+          
+          transactions.map((transaction) => {
             return (
               <tr key={transaction.id}>
                 <td width="50%">{transaction.description}</td>
@@ -38,7 +46,8 @@ export function Transactions() {
                 <td>{dateFormater.format(new Date(transaction.createdAt))}</td>
               </tr>
             );
-          })}
+          })
+          }
         </TransactionTable>
       </TransactionsContainer>
     </div>

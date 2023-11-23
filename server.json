@@ -55,6 +55,22 @@
       "type": "outcome",
       "createdAt": "2023-11-06T17:59:51.476Z",
       "id": 7
+    },
+    {
+      "description": "Desenvolvimento de site ",
+      "price": 2590,
+      "category": "venda",
+      "type": "income",
+      "createdAt": "2023-11-22T23:53:36.942Z",
+      "id": 8
+    },
+    {
+      "description": "compras",
+      "price": 1900,
+      "category": "Compra",
+      "type": "outcome",
+      "createdAt": "2023-11-22T23:54:06.361Z",
+      "id": 9
     }
   ]
 }
